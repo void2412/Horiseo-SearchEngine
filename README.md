@@ -12,13 +12,10 @@ Extract and index.html is your main entry. Open it using a web browswer
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Here is a picture of our main page:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![main page](./assets/images/screenshot.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
