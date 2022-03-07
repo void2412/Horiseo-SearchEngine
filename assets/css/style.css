@@ -29,7 +29,7 @@ body {
     color: #d9dcd6;
 }
 
-/* div element inside of header class */
+/* div element inside of header class - navigation box*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,18 +38,18 @@ body {
     font-size: 20px;
 }
 
-/* ul element of navigation bar */
+/* ul element of navigation box */
 .header div ul {
     list-style-type: none;
 }
 
-/* li element of navigation bar */
+/* li element of navigation box */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* HTML element selector a and p */
+/* text color, size and decoration */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -58,7 +58,6 @@ a {
 p {
     font-size: 16px;
 }
-
 
 
 /* hero class selector - team Image container */
@@ -100,7 +99,14 @@ p {
     color: #ffffff;
 }
 
+.article-square img{
+    max-height: 200px;
+}
 
+.article-square h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 /* benefit css section */
 .benefits {
@@ -114,7 +120,7 @@ p {
     background-color: #2589bd;
 }
 
-/* article and text section of benefit */
+/* article and text section of benefits */
 .benefits article {
     margin-bottom: 32px;
     color: #ffffff;
@@ -132,61 +138,7 @@ p {
     max-width: 150px;
 }
 
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer section */
 .footer {
     padding: 30px;
     clear: both;
